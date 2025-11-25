@@ -13,7 +13,7 @@ draft: false
 hidemeta: false
 comments: false
 
-canonicalURL: "https://blog.thebytepathchronicles.es/posts/lpic-1_101_arquitectura_del_sistema/"
+canonicalURL: "https://blog.thebytepathchronicles.es/posts/lpic1_101_arquitectura_del_sistema/"
 
 disableShare: false
 disableHLJS: false
@@ -37,4 +37,4 @@ UseHugoToc: true
 #    appendFilePath: true # to append file path to Edit link
 ---
 
-![Tema 101 Arquitectura del Sistema.webp](/img/LPIC-1/Tema_101_Arquitectura_del_Sistema.webp)
+![Tema 101 Arquitectura del Sistema](/img/LPIC-1/Tema_101_Arquitectura_del_Sistema.webp)
