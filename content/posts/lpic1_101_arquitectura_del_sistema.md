@@ -37,4 +37,5 @@ UseHugoToc: true
 #    appendFilePath: true # to append file path to Edit link
 ---
 Mapa mental del tema 101 de LPIC-1
+
 ![Tema 101 Arquitectura del Sistema](/img/LPIC-1/Tema_101_Arquitectura_del_Sistema.webp)
