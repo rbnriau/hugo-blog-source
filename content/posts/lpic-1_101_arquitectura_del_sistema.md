@@ -13,7 +13,7 @@ draft: false
 hidemeta: false
 comments: false
 
-canonicalURL: "https://blog.thebytepathchronicles.es/posts/lpic-1_101_arquitectura_del_sistema.md/"
+canonicalURL: "https://blog.thebytepathchronicles.es/posts/lpic-1_101_arquitectura_del_sistema/"
 
 disableShare: false
 disableHLJS: false
