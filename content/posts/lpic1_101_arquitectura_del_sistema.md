@@ -4,7 +4,7 @@ date: 2025-11-25T11:30:03+00:00
 description: "Mapa mental tema 101"
 # weight: 1
 # aliases: ["/first"]
-tags: ["lpci", "linux"]
+tags: ["lpic-1", "linux"]
 author: "Ruben Riau Vicente"
 # author: ["Me", "You"] # multiple authors
 showToc: true
