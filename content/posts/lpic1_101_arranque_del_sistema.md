@@ -1,5 +1,5 @@
 ---
-title: "Tema 101.2 Arranque del sistema"
+title: "LPIC-1(101) Arranque del sistema"
 date: 2025-11-25T11:30:03+00:00
 description: "Mapa mental tema 101.2"
 # weight: 1
@@ -36,7 +36,7 @@ UseHugoToc: true
 #    Text: "Suggest Changes" # edit text
 #    appendFilePath: true # to append file path to Edit link
 ---
-![Mapa mental lpic-1 101.2](/img/LPIC-1/tema_101.2_arranque_del_sistema.webp)
+![Mapa mental Arranque del sistema](/img/LPIC-1/tema_101.2_arranque_del_sistema.webp)
 
 
 El proceso **POST**, se ejecta en primer lugar identificando fallos simples en dispositivos, dando paso a **BIOS o UEFI**.

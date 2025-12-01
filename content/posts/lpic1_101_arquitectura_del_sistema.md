@@ -1,5 +1,5 @@
 ---
-title: "Tema 101 Arquitectura del Sistema"
+title: "LPIC-1(101) Arquitectura del Sistema"
 date: 2025-11-25T11:30:03+00:00
 description: "Mapa mental tema 101"
 # weight: 1
@@ -38,7 +38,7 @@ UseHugoToc: true
 ---
 
 
-![Tema 101 Arquitectura del Sistema](/img/LPIC-1/Tema_101_Arquitectura_del_Sistema.webp)
+![Arquitectura del Sistema](/img/LPIC-1/Tema_101_Arquitectura_del_Sistema.webp)
 
 ## 1.Activar y desactivar dispositivos.
 

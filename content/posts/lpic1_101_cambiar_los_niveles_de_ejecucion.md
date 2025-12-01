@@ -1,5 +1,5 @@
 ---
-title: "Tema 101.3 Niveles de ejecución"
+title: "LPIC-1(101) Niveles de ejecución"
 date: 2025-11-30T11:30:03+00:00
 description: "Cambiar los niveles de ejecución y objetivos de arranque y apagar o reiniciar el
 sistema"
@@ -37,7 +37,7 @@ UseHugoToc: true
 #    Text: "Suggest Changes" # edit text
 #    appendFilePath: true # to append file path to Edit link
 ---
-![Mapa mental 101.3](/img/LPIC-1/tema_101.3_Niveles_de_ejecución.webp)
+![Mapa mental Niveles de ejecución](/img/LPIC-1/tema_101.3_Niveles_de_ejecución.webp)
 ## Estándar SysVinit
 - **Runlevel 0** Apagado del sistema.
 - **Runlevel 1, s o usuario único** Modo de usuario único, sin red o capacidades no esenciales(mantenimiento).
