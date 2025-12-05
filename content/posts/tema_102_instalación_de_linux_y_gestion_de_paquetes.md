@@ -48,62 +48,63 @@ UseHugoToc: true
  
 ## 102.3 Gestión de librerías compartidas
 
- **Objetivo**: Entender como Linux gestiona librerías compartidas y cómo hacer que el sistema las encuentre.
-	- **Librerías dinámicas vs estáticas**:
-		- Estáticas: se copian la binario
-		- Dinámicas: se cargan en tiempo de ejecución
-	- **Comandos impotantes**:
-		- `ldd <pograma>` --> lista librerías compartidas requeridas
-		- `ldconfig` --> actualiza cache de librerías `/etc/ld.so.cache` 
-	- **Rutas**:
-		- `/lib`, `/usr/lib`, `/lib64`, `/usr/lib64` --> librerías estandard
-		- `/etc/ld.so.conf` --> rutas adicionales
-	- **Variables de entorno**
-		- `LD_LIBRARY_PATH` --> añadir rutas temporales para librerías.
+**Objetivo**: Entender como Linux gestiona librerías compartidas y cómo hacer que el sistema las encuentre.
+ - **Librerías dinámicas vs estáticas**:
+	- Estáticas: se copian la binario
+	- Dinámicas: se cargan en tiempo de ejecución
+ - **Comandos impotantes**:
+	- `ldd <pograma>` --> lista librerías compartidas requeridas
+	- `ldconfig` --> actualiza cache de librerías `/etc/ld.so.cache` 
+ - **Rutas**:
+	- `/lib`, `/usr/lib`, `/lib64`, `/usr/lib64` --> librerías estandard
+	- `/etc/ld.so.conf` --> rutas adicionales
+ - **Variables de entorno**
+	- `LD_LIBRARY_PATH` --> añadir rutas temporales para librerías.
 		
 ## 102.4 Gestión de paquetes Debian
 
- **Objetivo**: Manejar paquetes en sistemas basados en Debian (dpkg y apt)
- **Herramientas**
- 	1 **dpkg**
- 		- Instalar: `dpkg -i paquete.deb`
- 		- Quitar: `dpkg -r paquete`
- 		- Ver estado: `dpkg -l | grep paquete`
- 		- Listar contenido: `dpkg -L paquete`
- 	2 **APT(Advanced Package Tool)**
- 		- Instalar:`apt install paquete`
- 		- Actualizar índices: `apt update`
- 		- Actualizar paquetes: `apt upgrade`
- 		- Quitar: `apt remove paquete`/ `apr purge paquete`
- 		- Buscar: `apt search paquete`
- 		- Información: `apt show paquete`
- 	3 **Repositorios**
- 		- Configuración: `/etc/apt/sources.list`y `/etc/apt/sources.list.d/`
- 		- Paquetes pueden ser *main*, *contrib*, *non-free*
+**Objetivo**: Manejar paquetes en sistemas basados en Debian (dpkg y apt).
+
+**Herramientas**
+1. **dpkg**
+	- Instalar: `dpkg -i paquete.deb`
+ 	- Quitar: `dpkg -r paquete`
+ 	- Ver estado: `dpkg -l | grep paquete`
+ 	- Listar contenido: `dpkg -L paquete`
+2. **APT(Advanced Package Tool)**
+ 	- Instalar:`apt install paquete`
+ 	- Actualizar índices: `apt update`
+ 	- Actualizar paquetes: `apt upgrade`
+ 	- Quitar: `apt remove paquete`/ `apr purge paquete`
+ 	- Buscar: `apt search paquete`
+ 	- Información: `apt show paquete`
+3. **Repositorios**
+ 	- Configuración: `/etc/apt/sources.list`y `/etc/apt/sources.list.d/`
+ 	- Paquetes pueden ser *main*, *contrib*, *non-free*
 ## 102.5 Gestión de paquetes RPM y YUM
- **Objetivo**: Manejar paquetes en distribuciones basadas en Red Hat (RHEL, CentOS, Fedora)
- **Herramientas**:
- 	1.**rpm**(bajo nivel)
- 		- Instalar: `rpm -i paquete.rpm`
- 		- Actualizar: `rpm -U paquete.rpm`
- 		- Quitar: `rpm -e paquete`
- 		- Ver: `rpm -q paquete`
- 		- Listar archivos: `rpm -ql paquete`
- 		- Comprobar integridad: `rpm -V paquete`
- 	2.**yum/dnf**(alto nivel)
- 		- Instalar: `yum install paquete`
- 		- Actualizar: `yum update`
- 		- Quitar: `yum remove paquete`
- 		- Buscar: `yum search paquete`
- 		- Mostrar info: `yum info paquete`
- 	3.**Repositorios**
- 		- Configuración: `/etc/yum.repos.d/*.repo`
+**Objetivo**: Manejar paquetes en distribuciones basadas en Red Hat (RHEL, CentOS, Fedora)
+**Herramientas**:
+1. **rpm**(bajo nivel)
+	- Instalar: `rpm -i paquete.rpm`
+ 	- Actualizar: `rpm -U paquete.rpm`
+ 	- Quitar: `rpm -e paquete`
+ 	- Ver: `rpm -q paquete`
+ 	- Listar archivos: `rpm -ql paquete`
+ 	- Comprobar integridad: `rpm -V paquete`
+2. **yum/dnf**(alto nivel)
+	- Instalar: `yum install paquete`
+ 	- Actualizar: `yum update`
+ 	- Quitar: `yum remove paquete`
+ 	- Buscar: `yum search paquete`
+ 	- Mostrar info: `yum info paquete`
+3. **Repositorios**
+ 	- Configuración: `/etc/yum.repos.d/*.repo`
 ## 102.6 Linux como sistema virtualizado
- **Objetivo**: Conocer las formas de virtualización y conceptos básicos para LPIC
- **Tipos**:
- 	- Full virtualization/hypervisor
- 	- Paravirtualization
- 	- Containers
+**Objetivo**: Conocer las formas de virtualización y conceptos básicos para LPIC
+**Tipos**:
+- Full virtualization/hypervisor
+- Paravirtualization
+- Containers
  	
  	
  	
