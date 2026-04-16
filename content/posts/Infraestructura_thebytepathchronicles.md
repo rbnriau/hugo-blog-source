@@ -9,7 +9,7 @@ TocOpen: false
 hidemeta: false
 comments: false
 description: "Descripción-mapa de la Infraestructura creada para la creación y mantenimiento de sitios web"
-canonicalURL: "https://blog.thebytepathchronicles.es/posts/Infraestructura_thebytepathchronicles.md"
+canonicalURL: "https://blog.thebytepathchronicles.es/posts/Infraestructura_thebytepathchronicles/"
 disableShare: false
 disableHLJS: false
 hideSummary: false
