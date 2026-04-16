@@ -33,7 +33,7 @@ UseHugoToc: true
 
 ---
 
-## 🟡 REGISTRO DE DOMINIO
+## REGISTRO DE DOMINIO
 OVH
 → dominio comprado: thebytepathchronicles.es
                                    thebytepathchronicles.com
@@ -41,7 +41,7 @@ OVH
 
 ---
 
-## 🛡️ DNS AUTORITATIVO
+##  DNS AUTORITATIVO
 Cloudflare
 → gestión actual de DNS
 → redirecciones
@@ -49,7 +49,7 @@ Cloudflare
 
 ---
 
-## 🌍 DOMINIO PRINCIPAL (WEB)
+## DOMINIO PRINCIPAL (WEB)
 
 www.thebytepathchronicles.es
 → Firebase Hosting
@@ -60,7 +60,7 @@ thebytepathchronicles.es
 
 ---
 
-## 📝 BLOG TÉCNICO
+## BLOG TÉCNICO
 
 blog.thebytepathchronicles.es
 → Firebase Hosting (proyecto separado)
@@ -68,7 +68,7 @@ blog.thebytepathchronicles.es
 
 ---
 
-## 🚀 CI/CD (DEPLOY)
+## CI/CD (DEPLOY)
 
 GitHub
 → repositorios de proyectos
@@ -78,7 +78,7 @@ GitHub Actions
 
 ---
 
-## 🧪 ENTORNO LOCAL DE TRABAJO
+## ENTORNO LOCAL DE TRABAJO
 
 Máquina local (desarrollo)
 → edición de sitios (Hugo / static / etc.)
@@ -86,7 +86,7 @@ Máquina local (desarrollo)
 
 ---
 
-## 🖥️ INFRAESTRUCTURA LEGACY
+##  INFRAESTRUCTURA LEGACY
 
 VPS OVH (inactivo actualmente)
 → antiguo hosting / pruebas
@@ -94,7 +94,7 @@ VPS OVH (inactivo actualmente)
 
 ---
 
-## 🛡️ EDGE / CDN
+##  EDGE / CDN
 
 Cloudflare
 → cache global
@@ -103,7 +103,7 @@ Cloudflare
 
 ---
 
-## 🧠 FUENTES DE VERDAD
+##  FUENTES DE VERDAD
 
 - Código → GitHub
 - Deploy → GitHub Actions + Firebase
