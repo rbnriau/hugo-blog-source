@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Allow: /
+
+# Esto permite que todos te encuentren, incluidas las búsquedas con IA
+Sitemap: https://thebytepathchronicles.es
