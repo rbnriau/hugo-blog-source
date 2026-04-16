@@ -20,7 +20,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      run: hugo --gc --minify --cleanDestinationDir
+      - run: hugo --gc --minify --cleanDestinationDir
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
