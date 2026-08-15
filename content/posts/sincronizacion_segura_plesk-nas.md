@@ -2,7 +2,7 @@
 title: "Sincronización Segura Plesk-NAS: Arquitectura Staging con Verificación Criptográfica y Resiliencia Operativa"
 date: 2026-08-15T17:53:14+01:00
 draft: false
-tags: ["Bash, Hardening, Linux,seguridad, SSH"]
+tags: ["Bash", "Hardening", "Linux", "seguridad", "SSH"]
 author: "Rubén Riau"
 showToc: true
 TocOpen: false
