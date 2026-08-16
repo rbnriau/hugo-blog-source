@@ -57,17 +57,15 @@ Este documento detalla el diseño, implementación y validación de un sistema a
 
 ## 2. Contexto y Justificación
 
-### 2.1. Escenario Actual
+### 2.1. Contexto del Proyecto:
 
-- **Infraestructura:**
-  - Entorno multiservidor gestionado con Plesk para alojar dominios de clientes.
-  - Dos dispositivos QNAP en local: uno para backups de Plesk y otro para recursos internos.
-  - Copias periódicas en discos duros externos.
-- **Protocolo anterior:** Sincronización mediante FTP en modo pasivo con tareas programadas.
-- **Limitaciones detectadas:**
-  - Gestión manual del espacio en disco.
-  - Riesgo de saturación del servidor.
-  - Falta de snapshots para recuperación granular.
+Este proyecto nació de la necesidad de modernizar arquitecturas de backup "legacy" comunes en entornos de hosting compartido. El objetivo fue diseñar un pipeline seguro para reemplazar transferencias basadas en protocolos sin cifrar (como FTP pasivo), eliminando dependencias de software de terceros y garantizando la soberanía de los datos.
+
+**Infraestructura simulada/desplegada***:
+
+- **Servidor web virtualizado gestionado con panel Plesk.**
+- **Almacenamiento en red local (NAS QNAP/TrueNAS).**
+- 
 
 ### 2.2. Problemas y Necesidades
 
