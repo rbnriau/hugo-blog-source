@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Hardening de Servidores Linux: Implementación de UFW y IPS con Fail2ban en Debian 12"
 date: 2025-06-25T15:57:47+01:00
 draft: false
 tags: ["Linux", "Debian", "Apache", "Hardening"]
@@ -134,9 +134,11 @@ Crearé tres jails para apache en mi archivo jail.local.
     -  Detecta múltiples errores de autenticación HTTP.
    
     -  Protege paneles admin protegidos por .htaccess, por ejemplo.
+
 2. 🔹 apache-noscript
    
     -  Detecta intentos de acceder a scripts no permitidos (común en ataques automáticos).
+
 3. 🔹 apache-badbots
    
     -  Detecta bots que usan User-Agents sospechosos conocidos por comportamiento malicioso.
