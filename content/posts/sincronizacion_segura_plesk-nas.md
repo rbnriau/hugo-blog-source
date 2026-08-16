@@ -32,10 +32,7 @@ editPost:
     appendFilePath: true
 ---
 
-# Sincronización Segura Plesk-NAS: Arquitectura Staging con Verificación Criptográfica y Resiliencia Operativa
 
-**Fecha:** 2026-08-15  
-**Tema:** backup's
 
 ---
 
@@ -276,7 +273,7 @@ Se realizaron pruebas para validar la robustez del sistema:
 
 ## 10. Evolución Técnica: Mejoras Identificadas para Producción
 
-> **Nota:** Esta sección documenta mejoras identificadas tras la implementación en entorno FCT. No forman parte del código desplegado originalmente, pero reflejan el análisis posterior para escalabilidad y endurecimiento en entornos CPD productivos.
+> **Nota:** Esta sección documenta mejoras identificadas durante las pruebas de estrés en el laboratorio para su futura aplicación en entornos CPD productivos reales.
 
 | Área                       | Estado en FCT (v2.1)                | Mejora Recomendada para Producción                              | Justificación Técnica                                                                                 |
 |:-------------------------- |:----------------------------------- |:--------------------------------------------------------------- |:----------------------------------------------------------------------------------------------------- |
